@@ -63,3 +63,27 @@ Visualization:
 
 Use scatter plot with media engagements on the x-axis and media views on the y-axis.
 Highlight points where the engagement rate is above 5%.
+
+3. Comparison of Replies, Retweets, and Likes (Media Engagements > Median)
+Requirements:
+Compare replies, retweets, and likes for tweets with media engagements greater than the median value.
+Filter for tweets posted between June and August 2020.
+Time filtering:
+Only between 3 PM to 5 PM IST and 7 AM to 11 AM IST.
+Additional conditions:
+Tweet date must be odd number.
+Media views should be an even number.
+Tweet character count should be below 20.
+Remove words containing the letter 'S' from the tweet text.
+Approach:
+Data Preprocessing:
+
+Filter tweets by date (June-August 2020).
+Apply time filtering (3 PM - 5 PM IST and 7 AM - 11 AM IST).
+Remove words containing 'S' from tweet text.
+Check for even number of media views and odd-numbered tweet dates.
+Filter for tweets with media engagements > median.
+Visualization:
+
+Use a bar chart or stacked bar chart to compare replies, retweets, and likes.
+Add a filter for the time range and other conditions.
